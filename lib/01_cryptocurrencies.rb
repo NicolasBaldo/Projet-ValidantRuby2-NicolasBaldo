@@ -51,3 +51,5 @@ crypto_la_plus_chere_sous_6000 = crypto_sous_6000.max_by { |crypto, value| value
 puts "Cryptomonnaie la plus chère des cryptos dont le cours est inférieur à 6000 : "
 puts "#{crypto_la_plus_chere_sous_6000[0]}: #{crypto_la_plus_chere_sous_6000[1]}"
 #Ici les fonctions [0] et [1] servent a se déplacer dans un "tableau" de fonction avec crypto,Value 
+
+
